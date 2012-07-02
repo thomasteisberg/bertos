@@ -1,0 +1,38 @@
+Traceback (most recent call last):
+
+  File "bertos.py", line 150, in <module>
+    main()
+
+  File "bertos.py", line 144, in main
+    editProject(os.path.abspath(sys.argv[2]))
+
+  File "bertos.py", line 92, in editProject
+    QApplication.instance().project = BProject(project_file, info_dict)
+
+  File "/home/thomas/Bertos/bertos/wizard/BProject.py", line 76, in __init__
+    self.loadBertosProject(project_file, info_dict)
+
+  File "/home/thomas/Bertos/bertos/wizard/BProject.py", line 82, in loadBertosProject
+    project_data = pickle.loads(open(project_file, "r").read())
+
+IOError: [Errno 21] Is a directory: '/home/thomas/Desktop/BertosProj/Mega2560ContextSwitch'
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Traceback (most recent call last):
+
+  File "bertos.py", line 150, in <module>
+    main()
+
+  File "bertos.py", line 144, in main
+    editProject(os.path.abspath(sys.argv[2]))
+
+  File "bertos.py", line 92, in editProject
+    QApplication.instance().project = BProject(project_file, info_dict)
+
+  File "/home/thomas/Bertos/bertos/wizard/BProject.py", line 76, in __init__
+    self.loadBertosProject(project_file, info_dict)
+
+  File "/home/thomas/Bertos/bertos/wizard/BProject.py", line 82, in loadBertosProject
+    project_data = pickle.loads(open(project_file, "r").read())
+
+IOError: [Errno 21] Is a directory: '/home/thomas/Desktop/BertosProjTests/Mega2560ContextSwitch'
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
